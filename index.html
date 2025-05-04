@@ -6,8 +6,29 @@
     <title>Document</title>
 </head>
 <body>
-    这是一个demo
-    我正在学习b站博主：HDAlex_John的教学视频
+    1.这是一个demo
+
+    2.我正在学习b站博主：HDAlex_John的教学视频
     视频链接：https://www.bilibili.com/video/BV1Hkr7YYEh8/?spm_id_from=333.337.search-card.all.click&vd_source=9b344b711750f0825d34f1068ec2c1e9
+
+    3.我需要设置代理（还不知道代理地址，还没做）
+    这样能更好的使用git而不会出现网络错误
+    代码：
+    git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+    - 更改proxyuser为您的代理用户
+    - 更改proxypwd您的代理密码
+    - 更改proxy.server.com为代理服务器的 URL
+    - 更改8080为代理服务器上配置的代理端口
+    请注意，这适用于 HTTP 和 HTTPS 存储库。
+    如果您决定随时重置此代理并在没有代理的情况下工作：
+
+    使用的命令：
+
+    git config --global --unset http.proxy
+    最后，检查当前设置的代理：
+
+    git config --global --get http.proxy
+
+    4.
 </body>
 </html>
